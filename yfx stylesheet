@@ -1,0 +1,14 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+body {
+	margin: 0;
+}
+
+p {
+	font-family: Nexa Light;
+	font-size: 110%;
+	font-color: #dddddd;
+	margin: 0;
+	padding: 5% 20% 5% 20%;
+    line-height: 200%;
+}
