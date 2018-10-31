@@ -1,14 +1,71 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway';
-
-body {
+* {
 	margin: 0;
 }
 
-p {
-	font-family: Nexa Light;
-	font-size: 110%;
-	font-color: #dddddd;
+body {
+	font-family: Arial;	
 	margin: 0;
-	padding: 5% 20% 5% 20%;
-    line-height: 200%;
+	color: #323232;
+}
+
+.headerbar {
+	background-color: #ffc000;
+	padding-bottom: 0;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+.navbar {
+	background-color: #fadf63;
+	font-size: 120%;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #323232;
+	padding-right: 2%;
+}
+
+.navbar a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.contact {
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+.contact a {
+	text-decoration: none;
+	color: #ffc000;
+}
+
+.contact a:hover {
+	color: #323232;
+}
+
+p {
+	color: #555555;
+	font-size: 100%;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	line-height: 150%;
+}
+
+h1 {
+	font-size: 450%;
+	padding-top: 0;
+}
+
+h2 {
+	font-size: 150%;
+	padding-top: 0;
+	
 }
