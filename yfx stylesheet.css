@@ -1,3 +1,11 @@
+@media only screen and (max-width: 600px){
+    .so-panel.widget {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding: 10px !important;
+    }
+}
+
 * {
 	margin: 0;
 }
