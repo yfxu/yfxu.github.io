@@ -4,7 +4,7 @@ html {
 }
 
 body {
-	font-family: Arial;
+	font-family: "Open Sans";
 	color: #545454;
 	margin: 10%;
 	max-width: 40em;
@@ -52,6 +52,6 @@ hr {
 }
 
 body {
-	font-family: "Dengxian";
+	
 	margin: auto;
 }
