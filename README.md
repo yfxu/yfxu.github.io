@@ -1,3 +1,3 @@
-# Xu-Yifei.github.io
+# yfxu.github.io
 
-This is my personal website: https://yfeix.github.io
+This is my personal website: https://yfxu.github.io
