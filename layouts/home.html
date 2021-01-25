@@ -1,7 +1,0 @@
-{{- define "content" -}}
-<p>I sometimes like to write blog posts!</p>
-{{ $posts := .GetPage "/posts" }}
-
-{{ partial "post-list" $posts }}
-
-{{- end -}}
