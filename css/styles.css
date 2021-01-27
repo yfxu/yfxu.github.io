@@ -1,0 +1,73 @@
+:root {
+	--light-gray: #faf9f5;
+	--dark-gray: #404040;
+	--cool-teal: #16b885;
+	--cool-gold: #e0a912;
+	
+	--accent: var(--cool-teal);
+}
+
+html {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 1rem;
+
+	font-family: "Helvetica", "sans-serif";
+	font-size: 1.2rem;
+	line-height: 1.45rem;
+
+	background-color: var(--light-gray);
+	color: var(--dark-gray);
+}
+@media(max-width:640px) {
+	html {
+		font-size: 1.05rem;
+	}
+}
+
+h1 {
+	line-height: 2rem;
+}
+
+a.title {
+	color: var(--dark-gray);
+}
+
+a {
+	text-decoration: none;
+	color: var(--accent);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+hr {
+	border-top: 1px;
+}
+
+.footer-links {
+	text-align: center;
+}
+
+img {
+	border-radius: 8px;
+}
+
+img[src$='#feiri'] {
+	display: block;
+	margin: auto;
+	width: 150px;
+}
+
+img[src$='#blog-img'] {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+img[src$='#icon'] {
+	display: block;
+	margin: auto;
+	width: 2rem;
+}
