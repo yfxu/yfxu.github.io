@@ -59,3 +59,15 @@ img[src$='#feiri'] {
 	margin: auto;
 	width: 150px;
 }
+
+img[src$='#blog-img'] {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+img[src$='#icon'] {
+	display: block;
+	margin: auto;
+	width: 2rem;
+}
