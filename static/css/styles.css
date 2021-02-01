@@ -8,10 +8,10 @@
 }
 
 html {
-	max-width: 800px;
 	margin: 0 auto;
-	padding: 1rem;
-
+	padding: 0;
+	max-width: 800px;
+	
 	font-family: "Helvetica", "sans-serif";
 	font-size: 1.2rem;
 	line-height: 1.45rem;
@@ -70,4 +70,9 @@ img[src$='#icon'] {
 	display: block;
 	margin: auto;
 	width: 2rem;
+}
+
+.footnote-ref {
+	text-decoration: underline;
+	font-size: 0.7rem;
 }
