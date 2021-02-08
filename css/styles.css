@@ -9,7 +9,7 @@
 
 html {
 	margin: 0 auto;
-	padding: 0;
+	padding: 1rem;
 	max-width: 800px;
 	
 	font-family: "Helvetica", "sans-serif";
@@ -21,7 +21,7 @@ html {
 }
 @media(max-width:640px) {
 	html {
-		font-size: 1.05rem;
+		font-size: 1.09rem;
 	}
 }
 
