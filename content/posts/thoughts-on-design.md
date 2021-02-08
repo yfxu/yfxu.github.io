@@ -9,7 +9,7 @@ Many of my friends are well-invested into various forms of arts, either as hobby
 
 Someone I know, being a part-time UI designer, spread their interest in graphic design over to me. aHA but I hear you say "Why does your website look so BAD then?"	[^1]
 
-I've realized that some people actually like convetionally "bad" design (if done well at least). In fact, I like the way my site looks, despite how out-of-date it looks. It's simple and I know where to click to find things. Lack of colours for emphasis, poor whitespace management, and occasionally poor typeface choice, among other things, can all be overlooked depending on who your primary audience is.
+I've realized that some people actually like conventionally "bad" design (if done well at least). In fact, I like the way my site looks, despite how out-of-date it looks. It's simple and I know where to click to find things. Lack of colours for emphasis, poor whitespace management, and occasionally poor typeface choice, among other things, can all be overlooked depending on who your primary audience is.
 
 It's sort of like why a Linux man page has pretty lackluster design. The users of a man page want to consume information. What does this function do? What does it return? Some people just want the no-bullshit answer to their questions.
 
