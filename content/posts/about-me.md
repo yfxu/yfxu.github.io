@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-date: 2000-12-21T15:44:25-07:00
+date: 0001-01-01T01:01:01-07:00
 draft: false
 weight: 1
 ---
@@ -9,6 +9,15 @@ Hi! I'm Yifei.
 
 ![cute thing I drew](https://imgur.com/ejmxmvk.png#feiri)
 
-I'm a second-year computer engineering student at the University of Waterloo. At the moment, I'm trying to experience as wide a variety of software-related experiences as I can. I'm learning more about the world of technology every week, and I want to learn as much as I can.
+I'm a second-year computer engineering student at the University of Waterloo. I impulsively set up this website one day after being inspired to maintain my own blog. 
 
-I love playing rhythm games, arts and graphic design, and learning about anything that seems cool.
+idk what else to put here so here's a list of things I like and don't like:
+
+awesome things:
+* osu! --- tech maps in particular :^)
+* sushi
+* things that are 𝓪𝓮𝓼𝓽𝓱𝓮𝓽𝓲𝓬
+* learning new things (haha wow very cliche and suck-uppy)
+
+not awesome things:
+* uh
