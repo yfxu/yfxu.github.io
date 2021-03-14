@@ -1,5 +1,6 @@
 :root {
 	--light-gray: #faf9f5;
+	--slightly-less-gray: #e7e6e2;
 	--dark-gray: #404040;
 	--cool-teal: #16b885;
 	--cool-gold: #e0a912;
@@ -13,7 +14,7 @@ html {
 	max-width: 800px;
 	
 	font-family: "Helvetica", "sans-serif";
-	font-size: 1.2rem;
+	font-size: 1.15rem;
 	line-height: 1.45rem;
 
 	background-color: var(--light-gray);
@@ -49,6 +50,11 @@ hr {
 .footer-links {
 	text-align: center;
 }
+
+/*code {
+	font-size: 0.8rem;
+	background-color: var(--slightly-less-gray);
+}*/
 
 img {
 	border-radius: 8px;
