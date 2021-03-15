@@ -11,8 +11,10 @@ At the time, I thought my posts were pretty cool. At the time. UNFORTUNATELY, I 
 
 In total, I'd submitted 10 proper blog entries... over 33 days. Yeah, I stopped blogging after a month. It was pretty tiring thinking of new subjects to write about every one or two days, and maybe that's where I went wrong. A blog really should just be a place to dump some thoughts when you have them. It's not like I had any proper fanbase who actually CARED about what I wrote ;').
 
-So what the heck am I doing here now? To be honest, I have no idea. Something like a sudden flash of inspiration must've gone through my head because I'm sitting here typing out a bunch of html documents without using a templating engine because GitHub offers FREE static web page hosting. Students love the word "free" by the way!
+So what the heck am I doing here now? To be honest, I have no idea. Something like a sudden flash of inspiration must've gone through my head because I'm sitting here typing out a bunch of html documents without using a templating engine[^1] because GitHub offers FREE static web page hosting. Students love the word "free" by the way!
 
 I also justified doing this at 3:00 AM by reminding myself that co-op student employability has dropped to be quite low during the COVID-19 pandemic, meaning I'm gonna need a bit of extra pizzaz to distinguish myself from other similar candidates.
 
 Oh and here is the forsaken Tumblr account: https://notxenon.tumblr.com/. Read with caution, or don't read it at all. The latter might be the better option.
+
+[^1] ok now I'm using a templating engine

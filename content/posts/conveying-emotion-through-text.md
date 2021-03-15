@@ -113,8 +113,10 @@ This gets really chaotic really quickly tho, and people might think you're actua
 
 # Conclusion
 
-I wrote all this shit because I was talking with someone recently about texting styles. As shallow and judgmental as this may sound, it does feel pretty bad talking to someone who writes everything in lowercase without adding any extra colour to their messages. It comes off as if they're being cold/don't care. If that's the feeling you're trying to convey though, don't do anything in this guide I guess aHA
+I wrote all this shit because I was talking with someone recently about texting styles. As shallow and judgmental as this may sound, it can _sometimes_ feel pretty bad talking to someone who writes everything in lowercase without adding any extra colour to their messages. It might come off as if they're being cold/don't care, especially if you've never met them in person, and don't know their speech mannerisms. If you're trying to reject someone though, then don't do anything in this guide I guess aHA. 
 
-OF COURSE, this doesn't necessarily mean that all people who're uninteresting to talk to actually don't care or whatever. It's really hard to capture emotion in just plain text, but I think it's worth putting in a bit of extra effort to sound funny or ridiculous, because sometimes it makes people feel a bit better throughout the day xd
+OF COURSE, this doesn't necessarily mean that all people who type in 100% lowercase without emotes are boring/uninteresting people irl. The fact of the matter is, text is not the same as speech. They're used in different situations for different purposes. 
+
+It's really hard to capture emotion in just plain text, but I think it's worth putting in a bit of extra effort to sound funny or ridiculous, because sometimes it makes people feel a bit better throughout the day xd
 
 I very much enjoyed making up these fake conversations between arbitrary individuals A and B. Hope they continue to do great things in their lives!!
