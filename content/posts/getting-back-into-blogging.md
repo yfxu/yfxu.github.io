@@ -17,4 +17,4 @@ I also justified doing this at 3:00 AM by reminding myself that co-op student em
 
 Oh and here is the forsaken Tumblr account: https://notxenon.tumblr.com/. Read with caution, or don't read it at all. The latter might be the better option.
 
-[^1] ok now I'm using a templating engine
+[^1]: ok now I'm using a templating engine
