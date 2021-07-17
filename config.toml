@@ -1,17 +1,15 @@
-baseURL = ""
+baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "yfxu"
+theme = "feiri+v1"
+disableKinds = ["taxonomy", "term"]
 
-[markup]
-  [markup.highlight]
-    anchorLineNos = false
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineAnchors = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    style = "solarized-light"
-    tabWidth = 4
+[params]
+    author = "Yifei Xu"
+    description = "My personal site!"
+
+[params.urls]
+    email  = "mailto:yifeix@outlook.com"
+    github = "https://github.com/yfxu"
+    osu = "https://osu.ppy.sh/u/3214844"
+    source = "https://github.com/yfxu/yfxu.github.io"

@@ -4,7 +4,9 @@ date: 2021-03-13T23:32:51-07:00
 draft: false
 ---
 
-Do YOU want to spice up your online messaging style??? Well you've come to the right place! Here are some tips to make people think you're fucking crazy:
+Disclaimer: Please don't take this post too seriously
+
+Do YOU want to spice up your online messaging style??? Well you've come to the right place! Here are some tips to make people think you're friggin out of your mind:
 
 ### RAnDom CapiTALiZatIon
 
@@ -58,9 +60,9 @@ When you have time to think about what you want to write/type, it often ends up 
 > A: You think I'm ready for this interview?  
 > B: yea I mean prolly  
 > B: just don't like  
-> B: make racist comments or some shit aHA
+> B: make derogatory comments or some shit aHA
 
-> A: bro how do I use tinder  
+> A: bro how do I win on tinder  
 > B: you uhhhhhhhhh  
 > B: don't be ugly XDDDD
 
@@ -72,8 +74,8 @@ When you have time to think about what you want to write/type, it often ends up 
 Most messaging platforms nowadays have basic markdown support. You should uhhhhhh use markdown
 
 > A: yo  
-> A: how was _the date_  
-> B: yea pretty **sH**iT ngl 
+> A: how was&nbsp;&nbsp;&nbsp;&nbsp;_the date_  
+> B: uhHHh Kinda **sH**iT ngl 
 
 ### the holy question mark
 
@@ -115,8 +117,8 @@ This gets really chaotic really quickly tho, and people might think you're actua
 
 I wrote all this shit because I was talking with someone recently about texting styles. As shallow and judgmental as this may sound, it can _sometimes_ feel pretty bad talking to someone who writes everything in lowercase without adding any extra colour to their messages. It might come off as if they're being cold/don't care, especially if you've never met them in person, and don't know their speech mannerisms. If you're trying to reject someone though, then don't do anything in this guide I guess aHA. 
 
-OF COURSE, this doesn't necessarily mean that all people who type in 100% lowercase without emotes are boring/uninteresting people irl. The fact of the matter is, text is not the same as speech. They're used in different situations for different purposes. 
+OF COURSE, this doesn't necessarily mean that people who type in 100% lowercase without emotes are boring/uninteresting people irl. The fact of the matter is, text is not the same as speech. They're used in different situations for different purposes. 
 
-It's really hard to capture emotion in just plain text, but I think it's worth putting in a bit of extra effort to sound funny or ridiculous, because sometimes it makes people feel a bit better throughout the day xd
+It's really hard to capture emotion in just plain text, but I think it's worth putting in a bit of extra effort to sound funny or ridiculous. For a lot of people, it's funny, and that can help improve their day a bit xd (tho some people might find it pretty annoying)
 
 I very much enjoyed making up these fake conversations between arbitrary individuals A and B. Hope they continue to do great things in their lives!!

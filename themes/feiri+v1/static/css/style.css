@@ -1,0 +1,96 @@
+:root {
+	--light-gray: #fcfbf8;
+	--slightly-less-gray: #e7e6e2;
+	--dark-gray: #404040;
+	--cool-teal: #09a88e;
+	--cool-gold: #e0a912;
+	
+	--accent: var(--cool-teal);
+}
+
+/* Universal tags */
+html {
+	margin: 0 auto;
+    font-family: "Helvetica", "sans-serif";
+	font-size: 1.15rem;
+	line-height: 1.45rem;
+    padding: 1rem;
+
+	background-color: var(--light-gray);
+	color: var(--dark-gray);
+}
+
+a {
+	text-decoration: none;
+	color: var(--accent);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+hr {
+	border-top: 1px;
+}
+
+img {
+	border-radius: 8px;
+	max-width: 100%;
+}
+
+h1 {
+	line-height: 2rem;
+}
+
+/* Max page width container for all elements*/
+.container {
+    margin: 0 auto;
+	max-width: 800px;	
+}
+
+/* Navbar Links */
+.navbar a {
+	color: var(--dark-gray);
+    font-size: 1.2rem;
+    padding-right: 0.3rem;
+}
+
+.navbar a.title {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+/* Navbar avatar */
+.navatar {
+    float: right;
+}
+
+.navatar img {
+    border-radius: 100%;
+    width: 2rem;
+}
+
+/* Page footer */
+.footer {
+	margin: auto;
+	text-align: center;
+}
+
+/* Home Page links */
+#home-page-links a {
+	line-height: 100%;
+	font-size: 5.5rem;
+	font-weight: bold;	
+}
+
+/* Blog post table */
+#post-list-table {
+	border-spacing: 0 0.5rem;
+}
+
+/* Images */
+img[src$='#feiri'] {
+	display: block;
+	margin: auto;
+	width: 150px;
+}

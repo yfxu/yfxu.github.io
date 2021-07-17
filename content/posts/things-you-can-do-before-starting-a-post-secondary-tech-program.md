@@ -1,7 +1,7 @@
 ---
 title: "Things You Can Do Before Starting a Post-Secondary Tech Program"
 date: 2021-02-13T00:56:08-07:00
-draft: false
+draft: true
 ---
 
 Disclaimer: Everyone's first year uni experiences will be a bit different
