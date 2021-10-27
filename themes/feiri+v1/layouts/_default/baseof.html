@@ -2,13 +2,19 @@
 <html>
     {{- partial "head.html" . -}}
     <body>
-        {{- partial "header.html" . -}}
-        <div id="content" class="container">
-            {{- block "main" . }}
-            {{- end }}
+        <div class="content-wrapper">
+            <div id="header">
+                {{- partial "header.html" . -}}
+            </div>
+            <div id="content">
+                {{- block "main" . }}
+                {{- end }}
+            </div>
+            <div id="footer">
+                {{ if not .Params.excludefooter }}
+                    {{ partial "footer.html" . }}
+                {{ end }}
+            </div>
         </div>
-        {{ if not .Params.excludefooter }}
-            {{ partial "footer.html" . }}
-        {{ end }}
     </body>
 </html>
