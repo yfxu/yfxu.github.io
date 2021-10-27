@@ -109,11 +109,6 @@ footer {
 	font-weight: bold;	
 }
 
-/* Blog post table */
-#post-list-table {
-	border-spacing: 0 0.5rem;
-}
-
 /* Images */
 img[src$='#feiri'] {
 	display: block;
