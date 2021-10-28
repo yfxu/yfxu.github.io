@@ -1,0 +1,108 @@
+:root {
+  /* colors */
+  --light-gray:     #fdfdfb;
+  --medium-gray:    #e7e7e6;
+  --dark-gray:      #404040;
+  --cool-teal:      #09a88e;
+  --cool-dark-teal: #078671;
+  --cool-gold:      #e0a912;
+  /* element colors */
+  --accent:      var(--cool-teal);
+  --dark-accent: var(--cool-dark-teal);
+  --bg-color:    var(--light-gray);
+  --font-color:  var(--dark-gray); }
+
+/* Universal tags */
+html {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Helvetica", "sans-serif";
+  font-size: 17px;
+  line-height: 1.45rem;
+  background-color: var(--medium-gray);
+  color: var(--dark-gray); }
+
+body {
+  margin: 0; }
+
+div.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--bg-color);
+  min-height: 100vh;
+  max-width: 750px;
+  padding: 0 1rem;
+  margin: 0 auto;
+  gap: 1rem; }
+
+div#content {
+  flex: 1; }
+  div#content > h1 {
+    margin: 0 0 1rem 0; }
+
+a {
+  text-decoration: none;
+  color: var(--accent); }
+  a:hover {
+    text-decoration: underline; }
+
+img {
+  border-radius: 4px;
+  max-width: 100%; }
+
+h1 {
+  line-height: 2.2rem; }
+
+hr {
+  border-top: 1px solid var(--medium-gray);
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0; }
+
+pre {
+  padding: 0.5rem;
+  line-height: 1rem;
+  font-size: smaller; }
+
+/* Page footer */
+footer {
+  margin: auto;
+  text-align: center;
+  padding: 1rem; }
+
+/* Home Page links */
+#home-page-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; }
+  #home-page-links a {
+    /* line-height: 100%; */
+    font-weight: bold;
+    background-color: var(--accent);
+    color: var(--bg-color);
+    padding: 1rem; }
+    #home-page-links a:hover {
+      text-decoration: none;
+      background-color: var(--dark-accent); }
+
+/* Images */
+img[src$='#feiri'] {
+  display: block;
+  margin: auto;
+  width: 150px; }
+
+/* Misc */
+.quote {
+  border-left: 2px solid var(--accent);
+  padding-left: 1rem; }
+
+/* Gallery */
+div.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem; }
+  div.gallery a.single-image {
+    height: 200px;
+    background-image: var(--bg-image);
+    background-size: cover; }
