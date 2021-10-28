@@ -4,19 +4,21 @@ layout = "index"
 weight = 1
 +++
 
-Hi! I'm Yifei. 
+Hi, I'm Yifei Xu! 
 
-![cute thing I drew](https://imgur.com/ejmxmvk.png#feiri)
+Right now, I'm a third-year computer engineering student at the University of Waterloo. I impulsively set up this website one day after being inspired to maintain my own blog. Currently, I'm spending my time learning about anything that seems cool!
 
-I'm a second-year computer engineering student at the University of Waterloo. I impulsively set up this website one day after being inspired to maintain my own blog.
+I was born in Beijing, China, but then my parents yanked me onto a one-way flight to Calgary, Canada before my first birthday. (An early birthday present???)
 
-idk what else to put here so here's a list of things I like and don't like:
+This website is where I'll talk about anything random that I feel is worth sharing. Enjoy your stay!
 
-awesome things:
-* osu! --- tech maps in particular :^)
+To make this page feel more substantial and lively, here's an uncategorized list of things I like:
 * sushi
-* things that are 𝓪𝓮𝓼𝓽𝓱𝓮𝓽𝓲𝓬
-* learning new things (haha wow very cliche and suck-uppy)
-
-not awesome things:
-* uh
+* osu! (you should totally check out my beatmaps)
+* cozy spaces
+* brown rice milk tea w/ pudding, 30% sugar, no ice
+* things that look nice &#128526;
+* cooking
+* badminton
+* web development
+* that feeling when you successfully teach someone something new 

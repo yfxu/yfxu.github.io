@@ -1,7 +1,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <meta name="description" content="Yifei Xu's Website">
+    <meta name="author" content="Yifei Xu">
+    <meta name="keywords" content="blog">
+    {{ $style := resources.Get "sass/main.scss" | resources.ToCSS }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
     <link rel="icon" href="/avatar.png">
     {{ $title := print .Site.Title " | " .Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}

@@ -1,29 +1,45 @@
-baseURL = ""
+baseURL      = ""
 languageCode = "en-us"
-title = "yfxu"
-theme = "feiri+v1"
+title        = "yfxu"
+theme        = "feiri+v1"
 disableKinds = ["taxonomy", "term"]
 
 [params]
-    author = "Yifei Xu"
-    description = "My personal site!"
+  author      = "Yifei Xu"
+  description = "My personal site!"
 
 [params.urls]
-    email  = "mailto:yifeix@outlook.com"
-    github = "https://github.com/yfxu"
-    osu = "https://osu.ppy.sh/u/3214844"
-    source = "https://github.com/yfxu/yfxu.github.io"
+  email      = "mailto:yifeix@outlook.com"
+  github     = "https://github.com/yfxu"
+  osu        = "https://osu.ppy.sh/u/3214844"
+  osulist    = "https://osulist.tk"
+  sliderbase = "https://photos.app.goo.gl/n3LSJpJEwKUT73Qk8"
+  source     = "https://github.com/yfxu/yfxu.github.io"
+
+[params.photos]
+  urls = [
+    "https://i.imgur.com/fjqt1Ta.jpg",
+    "https://i.imgur.com/u3LqcIf.jpg",
+    "https://i.imgur.com/8NAkHhC.jpg",
+    "https://i.imgur.com/Tg0oieL.jpg",
+    "https://i.imgur.com/jchEbC1.jpg",
+    "https://i.imgur.com/pYdwqrT.jpg",
+    "https://i.imgur.com/PBazA7t.jpg",
+    "https://i.imgur.com/F4GcV46.jpg",
+    "https://i.imgur.com/qfoINDl.jpg",
+    "https://i.imgur.com/oyzQs4B.jpg",
+  ]
 
 [markup]
   [markup.highlight]
-    anchorLineNos = false
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ''
-    lineAnchors = ''
-    lineNoStart = 1
-    lineNos = false
+    anchorLineNos      = false
+    codeFences         = true
+    guessSyntax        = false
+    hl_Lines           = ''
+    lineAnchors        = ''
+    lineNoStart        = 1
+    lineNos            = false
     lineNumbersInTable = true
-    noClasses = true
-    style = 'friendly'
-    tabWidth = 4
+    noClasses          = true
+    style              = 'friendly'
+    tabWidth           = 4

@@ -1,0 +1,10 @@
+{{ define "main" }}
+    <h1>{{ .Title }}</h1>
+    <div id="content">{{ .Content }}</div>
+
+    <div class="gallery">
+    {{range $.Site.Params.photos.urls}}
+        <a class="single-image" style="--bg-image: url({{ . }})" href="{{ . }}"></a>
+    {{ end }}
+    </div>
+{{ end }}
