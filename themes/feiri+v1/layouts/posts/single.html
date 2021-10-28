@@ -1,7 +1,7 @@
 {{- define "main" -}}
 
 <h1>{{ .Title }}</h1>
-<small>{{ partial "rel-date" .Date }}</small>
+{{ partial "rel-date" .Date }}
 
 <div id="content">{{ .Content }}</div>
 

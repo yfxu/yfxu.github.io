@@ -6,10 +6,12 @@
             <div id="header">
                 {{- partial "header.html" . -}}
             </div>
+            
             <div id="content">
                 {{- block "main" . }}
                 {{- end }}
             </div>
+
             <div id="footer">
                 {{ if not .Params.excludefooter }}
                     {{ partial "footer.html" . }}

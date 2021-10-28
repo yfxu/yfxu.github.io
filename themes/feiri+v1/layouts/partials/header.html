@@ -1,9 +1,37 @@
 <nav>
-    <div class="nav-links">
+    <div>
         <a href="/" class="title">{{.Site.Title}}</a>
         <a href="/posts">blog</a>
         <a href="/about">about</a>
     </div>
-
-    <img src="/avatar.png" alt="Feiri Avatar">
+    <div>
+        <img src="/avatar.png" alt="Feiri Avatar">
+    </div>
 </nav>
+
+<style>
+    nav {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        
+        border-bottom: 1px solid var(--medium-gray);
+        padding: 1rem 0;
+    }
+    
+    nav a {
+        color: var(--font-color);
+        font-size: 1.2rem;
+        padding-right: 0.3rem;
+    }
+    
+    nav a.title {
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+    
+    nav img {
+        border-radius: 100%;
+        width: 2rem;
+    }
+</style>

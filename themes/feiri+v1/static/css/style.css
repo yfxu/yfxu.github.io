@@ -1,10 +1,10 @@
 :root {
 	/* colors */
-	--light-gray: #fcfbf8;
-	--slightly-less-gray: #e7e6e2;
-	--dark-gray: #404040;
-	--cool-teal: #09a88e;
-	--cool-gold: #e0a912;
+	--light-gray:  #fdfdfb;
+	--medium-gray: #e7e7e6;
+	--dark-gray:   #404040;
+	--cool-teal:   #09a88e;
+	--cool-gold:   #e0a912;
 	
 	/* element colors */
 	--accent: var(--cool-teal);
@@ -17,10 +17,10 @@ html {
 	margin: 0 auto;
 	padding: 0;
     font-family: "Helvetica", "sans-serif";
-	font-size: 1.15rem;
+	font-size: 17px;
 	line-height: 1.45rem;
 
-	background-color: var(--bg-color);
+	background-color: var(--medium-gray);
 	color: var(--dark-gray);
 }
 
@@ -28,39 +28,13 @@ body {
 	margin: 0;
 }
 
-a {
-	text-decoration: none;
-	color: var(--accent);
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-hr {
-	border-top: 1px;
-}
-
-img {
-	border-radius: 8px;
-	max-width: 100%;
-}
-
-h1 {
-	line-height: 2rem;
-}
-
-pre {
-	padding: 0.5rem;
-	line-height: 1rem;
-	font-size: smaller;
-}
-
 div.content-wrapper {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	
+	background-color: var(--bg-color);
+
 	min-height: 100vh;
 	max-width: 800px;	
 	padding: 0 1rem;
@@ -71,28 +45,34 @@ div#content {
 	flex: 1;
 }
 
-/* Navbar */
-nav {
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
-	padding: 1rem 0;
+a {
+	text-decoration: none;
+	color: var(--accent);
+}
+a:hover {
+	text-decoration: underline;
 }
 
-nav a {
-	color: var(--font-color);
-    font-size: 1.2rem;
-    padding-right: 0.3rem;
+img {
+	border-radius: 8px;
+	max-width: 100%;
 }
 
-nav a.title {
-    font-weight: bold;
-    font-size: 2.5rem;
+h1 {
+	line-height: 2.2rem;
 }
 
-nav > img {
-    border-radius: 100%;
-    width: 2rem;
+hr {
+	border-top: 1px solid var(--medium-gray);
+	border-right: 0;
+	border-bottom: 0;
+	border-left: 0;
+}
+
+pre {
+	padding: 0.5rem;
+	line-height: 1rem;
+	font-size: smaller;
 }
 
 /* Page footer */
@@ -114,4 +94,10 @@ img[src$='#feiri'] {
 	display: block;
 	margin: auto;
 	width: 150px;
+}
+
+/* Misc */
+.quote {
+	border-left: 2px solid var(--accent);
+	padding-left: 1rem;
 }
