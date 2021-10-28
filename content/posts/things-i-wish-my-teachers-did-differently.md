@@ -1,5 +1,5 @@
 ---
-title: "Things I Wish My Teachers Would Have Done Differently"
+title: "Things I Wish My Teachers Did Differently"
 date: 2021-10-27T19:52:29-06:00
 draft: false
 ---
