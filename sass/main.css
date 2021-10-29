@@ -2,14 +2,18 @@
   /* colors */
   --light-gray:     #fdfdfb;
   --medium-gray:    #e7e7e6;
-  --dark-gray:      #404040;
+  --dark-gray:      #424244;
   --cool-teal:      #09a88e;
   --cool-dark-teal: #078671;
   --cool-gold:      #e0a912;
+  /* dark theme */
+  --night-gray:   #27272b;
+  --evening-gray: #333336;
   /* element colors */
   --accent:      var(--cool-teal);
   --dark-accent: var(--cool-dark-teal);
   --bg-color:    var(--light-gray);
+  --bg-color-2:  var(--medium-gray);
   --font-color:  var(--dark-gray); }
 
 /* Universal tags */
@@ -19,8 +23,8 @@ html {
   font-family: "Helvetica", "sans-serif";
   font-size: 17px;
   line-height: 1.45rem;
-  background-color: var(--medium-gray);
-  color: var(--dark-gray); }
+  background-color: var(--bg-color-2);
+  color: var(--font-color); }
 
 body {
   margin: 0; }
@@ -55,7 +59,7 @@ h1 {
   line-height: 2.2rem; }
 
 hr {
-  border-top: 1px solid var(--medium-gray);
+  border-top: 1px solid var(--bg-color-2);
   border-right: 0;
   border-bottom: 0;
   border-left: 0; }
@@ -104,5 +108,5 @@ div.gallery {
   gap: 1rem; }
   div.gallery a.single-image {
     height: 200px;
-    background-image: var(--bg-image);
+    background-image: var(--bg-url);
     background-size: cover; }
