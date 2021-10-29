@@ -3,10 +3,10 @@
     <div id="content">{{ .Content }}</div>
 
     <div class="gallery">
-    {{ range (readDir "./content/gallery/image") }}
+    {{ range (readDir "./content/gallery/images") }}
         <a class="single-image" 
-           style="--bg-url: url(/gallery/image/{{ .Name }})"
-           href="image/{{ .Name }}">
+           style="--bg-url: url(/gallery/images/{{ .Name }})"
+           href="images/{{ .Name }}">
         </a>
     {{ end }}
     </div>
