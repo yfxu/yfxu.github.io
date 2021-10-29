@@ -4,11 +4,6 @@
         <div class="date">{{ partial "rel-date" .Date }}</div>
         <a href="{{ .Permalink }}">{{ .Title }}</a>
     </div>
-    <!-- <tr>
-        <td>{{ partial "rel-date" .Date }}</td>
-        <td>&nbsp;&#8227;&nbsp;</td>
-        <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
-    </tr> -->
     {{- end -}}
 </div>
 
@@ -16,7 +11,7 @@
     div.posts-list {
         display: flex;
         flex-direction: column;
-        gap: 0.5rem;
+        gap: 1rem;
     }
 
     div.date {

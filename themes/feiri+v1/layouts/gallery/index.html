@@ -3,8 +3,11 @@
     <div id="content">{{ .Content }}</div>
 
     <div class="gallery">
-    {{range $.Site.Params.photos.urls}}
-        <a class="single-image" style="--bg-image: url({{ . }})" href="{{ . }}"></a>
+    {{ range (readDir "./content/gallery/image") }}
+        <a class="single-image" 
+           style="--bg-url: url(/gallery/image/{{ .Name }})"
+           href="image/{{ .Name }}">
+        </a>
     {{ end }}
     </div>
 {{ end }}
