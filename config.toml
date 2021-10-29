@@ -16,20 +16,6 @@ disableKinds = ["taxonomy", "term"]
   sliderbase = "https://photos.app.goo.gl/n3LSJpJEwKUT73Qk8"
   source     = "https://github.com/yfxu/yfxu.github.io"
 
-[params.photos]
-  urls = [
-    "https://i.imgur.com/fjqt1Ta.jpg",
-    "https://i.imgur.com/u3LqcIf.jpg",
-    "https://i.imgur.com/8NAkHhC.jpg",
-    "https://i.imgur.com/Tg0oieL.jpg",
-    "https://i.imgur.com/jchEbC1.jpg",
-    "https://i.imgur.com/pYdwqrT.jpg",
-    "https://i.imgur.com/PBazA7t.jpg",
-    "https://i.imgur.com/F4GcV46.jpg",
-    "https://i.imgur.com/qfoINDl.jpg",
-    "https://i.imgur.com/oyzQs4B.jpg",
-  ]
-
 [markup]
   [markup.highlight]
     anchorLineNos      = false
