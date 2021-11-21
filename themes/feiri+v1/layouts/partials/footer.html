@@ -1,12 +1,28 @@
 <footer>
-    <a href="{{.Site.Params.urls.email}}">email</a> &#8729;
-    <a href="{{.Site.Params.urls.github}}">github</a> &#8729;
-    <!-- <a href="https://osu.ppy.sh/users/3214844">osu!</a> &#8729; -->
-    <a href="{{.Site.Params.urls.source}}">source</a>
+    <div class="footer-text">
+        The content on this website is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> license. The website code is licensed under <a href="/mit.txt">MIT</a>. The site was generated with the <a href="https://gohugo.io/">Hugo</a> static site generator.
+    </div>
+    <br>
+    <div class="footer-links">
+        <a href="{{.Site.Params.urls.email}}">email</a> &#8729;
+        <a href="{{.Site.Params.urls.github}}">github</a> &#8729;
+        <!-- <a href="https://osu.ppy.sh/users/3214844">osu!</a> &#8729; -->
+        <a href="{{.Site.Params.urls.source}}">source</a>
+    </div>
 </footer>
 
 <style>
     footer {
         border-top: 1px solid var(--bg-color-2);
+        padding: 1rem 0;
+    }
+
+    footer > div.footer-text {
+        font-size: normal;
+    }
+
+    footer > div.footer-links {
+        margin: auto;
+        text-align: center;
     }
 </style>

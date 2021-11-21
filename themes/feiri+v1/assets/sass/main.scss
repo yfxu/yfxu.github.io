@@ -76,6 +76,10 @@ h1 {
 	line-height: 2.2rem;
 }
 
+h2 {
+	line-height: 1.8rem;
+}
+
 hr {
 	border-top: 1px solid var(--bg-color-2);
 	border-right: 0;
@@ -87,13 +91,15 @@ pre {
 	padding: 0.5rem;
 	line-height: 1rem;
 	font-size: smaller;
+	overflow-x: auto;
 }
 
-/* Page footer */
-footer {
-	margin: auto;
-	text-align: center;
-	padding: 1rem;
+blockquote {
+	margin-left: 1rem;
+	> p {
+		padding-left: 1rem;
+		border-left: 2px solid var(--accent);
+	}
 }
 
 /* Home Page links */
