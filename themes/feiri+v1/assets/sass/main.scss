@@ -94,6 +94,19 @@ pre {
 	overflow-x: auto;
 }
 
+sup {
+	line-height: 1;
+	font-size: 0.6em;
+
+	&::before {
+		content: "[";
+	}
+
+	&::after {
+		content: "]";
+	}
+}
+
 blockquote {
 	margin-left: 1rem;
 	> p {
