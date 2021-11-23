@@ -73,6 +73,14 @@ pre {
   font-size: smaller;
   overflow-x: auto; }
 
+sup {
+  line-height: 1;
+  font-size: 0.6em; }
+  sup::before {
+    content: "["; }
+  sup::after {
+    content: "]"; }
+
 blockquote {
   margin-left: 1rem; }
   blockquote > p {
