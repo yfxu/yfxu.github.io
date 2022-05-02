@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0 1rem;
   font-size: 1rem;
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   color: #000000;
   font-family: Helvetica, sans-serif; }
 
@@ -48,7 +48,7 @@ footer {
     border-bottom: 6px solid #09a88e;
     border-left: 2px solid #09a88e;
     border-radius: 0.5rem;
-    background-color: #ffffff; } }
+    background-color: #f7f7f7; } }
 
 div.content {
   margin: 0 auto; }
@@ -94,7 +94,8 @@ div.home-container {
           width: 1rem;
           margin-right: 0.75rem;
           display: flex;
-          justify-content: center; }
+          justify-content: center;
+          align-items: center; }
       div.home-container div.home-grid > div.home-link-row > span.fill-row {
         flex-grow: 1;
         height: 0.75rem;
@@ -144,7 +145,8 @@ a {
   text-decoration: none;
   color: #09a88e; }
   a:hover {
-    text-decoration: underline; }
+    text-decoration: underline;
+    text-decoration-thickness: 2px; }
 
 img {
   border-radius: 2px;
