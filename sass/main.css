@@ -3,8 +3,8 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
-  font-size: 1.125rem;
+  padding: 0 1rem;
+  font-size: 1rem;
   background-color: #ffffff;
   color: #000000;
   font-family: Helvetica, sans-serif; }
@@ -36,7 +36,7 @@ footer {
     border: none;
     margin: 0;
     border-radius: 0;
-    padding: 0.5rem 1rem; } }
+    padding: 0.5rem 0; } }
 
 @media screen and (min-width: 500px) {
   div.content-wrapper {
@@ -52,6 +52,9 @@ footer {
 
 div.content {
   margin: 0 auto; }
+
+div.main-content {
+  line-height: 1.25rem; }
 
 div.card {
   border: 1px solid #000000;
