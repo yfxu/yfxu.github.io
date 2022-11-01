@@ -5,7 +5,7 @@ body {
   margin: 1rem 0;
   padding: 0 1rem;
   font-size: 1rem;
-  background-color: #f7f7f7;
+  background-color: #f5f2e7;
   color: #000000;
   font-family: Helvetica, sans-serif; }
 
@@ -106,16 +106,21 @@ ul.posts-list {
     align-items: baseline;
     font-size: larger;
     justify-content: space-between; }
+    ul.posts-list > li.single-post > span.post-title {
+      font-weight: bold; }
     ul.posts-list > li.single-post > div.date {
       align-items: flex-end;
       color: #666666;
       font-size: smaller;
       padding-left: 1rem; }
     @media only screen and (max-width: 400px) {
+      ul.posts-list > li.single-post .single-post {
+        flex-direction: column-reverse; }
       ul.posts-list > li.single-post > div.date {
         display: block;
         line-height: 1rem;
-        margin-bottom: 0.25rem; }
+        margin-bottom: 0.25rem;
+        padding: 0; }
       ul.posts-list > li.single-post > span.post-title {
         display: block;
         line-height: 1.5rem; } }
