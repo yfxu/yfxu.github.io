@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="content home-container">
+  <div class="name-container">{{ .Content }}</div>
+  <ul class="posts-list">
+  {{ with .GetPage "/posts" }}
+    {{- range first 5 .Pages -}}
+      <li class="single-post">
+        <span class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></span>
+        <div class="date">{{ partial "rel-date" .Date }}</div>
+      </li>
+    {{- end -}}
+    ... <a href="/posts">more</a>
+  {{ end }}
+  </ul>
+</div>
+{{ end }}

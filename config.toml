@@ -1,0 +1,89 @@
+baseURL       = ""
+languageCode  = "en-us"
+title         = "yfxu"
+theme         = "catlamp"
+disableKinds  = ["taxonomy", "term"]
+enableGitInfo = true
+
+[params]
+  author      = "Yifei Xu"
+  authorFirst = "Yifei"
+  indexName   = "徐逸飞"
+  description = "My personal site!"
+
+#########
+# LINKS #
+#########
+
+# navbar links
+[[params.urls.navbar]]
+  label = "about"
+  link  = "/about"
+[[params.urls.navbar]]
+  label = "blog"
+  link  = "/posts"
+[[params.urls.navbar]]
+  label = "gallery"
+  link  = "/gallery"
+
+# home links
+[[params.urls.home]]
+  name  = "Email"
+  label = "yifei@yfxu.net"
+  link  = "mailto:yifei@yfxu.net"
+  iconClass = "fa-solid fa-envelope"
+[[params.urls.home]]
+  name  = "GitHub"
+  label = "yfxu"
+  link  = "https://github.com/yfxu"
+  iconClass = "fa-brands fa-github"
+[[params.urls.home]]
+  name  = "osu!"
+  label = "Feiri"
+  link  = "https://osu.ppy.sh/u/3214844"
+  iconClass = "fa-solid fa-circle"
+[[params.urls.home]]
+  name  = "Discord"
+  label = "Feiri#1221"
+  link  = "https://discord.com/users/121395681742159875"
+  iconClass = "fa-brands fa-discord"
+
+# footer links
+[[params.urls.footer]]
+  name  = "Email"
+  label = "Email"
+  link  = "mailto:yifei@yfxu.net"
+[[params.urls.footer]]
+  name  = "Source"
+  label = "GitHub"
+  link  = "https://github.com/yfxu/yfxu.github.io"
+[[params.urls.footer]]
+  name  = "RSS"
+  label = "RSS"
+  link  = "/index.xml"
+[[params.urls.footer]]
+  name  = "Site Code License"
+  label = "MIT"
+  link  = "/mit.txt"
+[[params.urls.footer]]
+  name  = "Post Content License"
+  label = "CC BY-SA 4.0"
+  link  = "https://creativecommons.org/licenses/by-sa/4.0/"
+
+##########
+# MARKUP #
+##########
+
+[markup]
+  [markup.highlight]
+    anchorLineNos      = false
+    codeFences         = true
+    guessSyntax        = false
+    hl_Lines           = ''
+    lineAnchors        = ''
+    lineNoStart        = 1
+    lineNos            = true
+    lineNumbersInTable = true
+    noClasses          = true
+    style              = 'friendly'
+    tabWidth           = 4

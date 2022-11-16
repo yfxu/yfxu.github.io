@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="content">
+    <h2 class="no-margin">{{ .Title }}</h2>
+    <div id="content">{{ .Content }}</div>
+
+    <div class="gallery">
+    {{ range (readDir "./content/gallery/images") }}
+    <a class="single-image" 
+        style="--bg-url: url(/gallery/thumbnails/{{ .Name }})"
+        href="images/{{ .Name }}">
+    </a>
+    {{ end }}
+    </div>
+</div>
+{{ end }}

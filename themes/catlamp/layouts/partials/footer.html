@@ -1,0 +1,13 @@
+<div class="content">
+  <footer>
+    <div class="footer-links">
+      {{ with .Site.Params.urls.footer }}
+        {{- range $i, $e := . -}}
+          {{ if $i }} &#183; {{ end }}
+          <span class="lower"><a href="{{ $e.link }}">{{ $e.name }}</a></span>
+        {{- end -}}
+      {{ end }}
+    </div>
+    made by <span class="lower">{{ .Site.Params.authorFirst }}</span>
+  </footer>
+</div>

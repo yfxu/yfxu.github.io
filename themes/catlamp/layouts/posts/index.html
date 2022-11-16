@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="content">
+    <h2 class="no-margin">{{ .Title }}</h2>    
+    <ul class="posts-list">
+        {{- range .Pages -}}
+        <li class="single-post">
+            <span class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></span>
+            <div class="date">{{ partial "rel-date" .Date }}</div>
+        </li>
+        {{- end -}}
+    </ul>
+</div>
+{{ end }}

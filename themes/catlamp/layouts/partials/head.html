@@ -1,0 +1,18 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Yifei Xu's Website">
+    <meta name="author" content="Yifei Xu">
+    <meta name="keywords" content="blog">
+    {{ $style := resources.Get "sass/main.scss" | resources.ToCSS }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+    <link rel="icon" href="/avatar.png">
+    {{ $title := print .Site.Title " | " .Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    {{ range .AlternativeOutputFormats -}}
+    {{ printf `
+    <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+    <title>{{ $title }}</title>
+    <script src="https://kit.fontawesome.com/5852213d52.js" crossorigin="anonymous"></script>
+</head>
