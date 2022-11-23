@@ -1,3 +1,8 @@
+# Folders
 /public
 /old
 /resources
+
+# Files
+*.tar.gz
+.hugo_build.lock
