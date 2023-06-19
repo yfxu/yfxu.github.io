@@ -3,6 +3,6 @@ layout = "index"
 title = "yfxu"
 +++
 
-Yifei Xu (徐逸飞)
+Yifei Xu // 徐逸飞
 
-Computer Engineering Student
+computer engineering student @uWaterloo

@@ -1,12 +1,7 @@
-<div class="content">
-    <nav>
-        <div class="nav-title">
-            <a href="/" class="title"><b>{{.Site.Title}}</b></a><span class="accented">.</span>
-        </div>
-        <div class="nav-links">
-            {{ range .Site.Params.urls.navbar }}
-            <a href="{{ .link }}" class="small-link">{{ .label }}</a>
-            {{ end }}
-        </div>
-    </nav>
-</div>
+<nav>
+    {{ $split_url := split .Page.RelPermalink "/" }}   
+    {{ $first_level := index $split_url 1 }}
+    {{ range .Site.Params.urls.navbar }}
+    <a href="{{ .link }}" class="small-link alt-style {{ eq $first_level .name }}">{{ .label }}</a>    
+    {{ end }}
+</nav>

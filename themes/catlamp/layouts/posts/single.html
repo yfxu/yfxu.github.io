@@ -1,7 +1,7 @@
 {{- define "main" -}}
 <div class="content">
     <h2>{{ .Title }}</h2>
-    <span class="lighter"><i>{{ partial "rel-date" .Date }}</i> &#183; <i>{{ .WordCount }} words</i> &#183; <i>{{ .Params.Location }}</i></span>
+    <span class="lighter"><i>{{ partial "rel-date" .Date }}</i> &#183; <i>@{{ .Params.Location }}</i></span>
     {{ .Content }}
 </div>
 {{- end -}}

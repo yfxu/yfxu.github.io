@@ -3,13 +3,13 @@
 
 name = "catlamp"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+licenselink = "/mit.txt"
 description = ""
-homepage = "yfxu.srht.site"
+homepage = "yfxu.net"
 tags = []
 features = []
 min_version = "0.106.0"
 
 [author]
   name = "Yifei"
-  homepage = ""
+  homepage = "yfxu.net"

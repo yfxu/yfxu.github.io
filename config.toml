@@ -19,44 +19,39 @@ enableGitInfo = true
 [[params.urls.navbar]]
   label = "about"
   link  = "/about"
+  name  = "about"
 [[params.urls.navbar]]
   label = "blog"
   link  = "/posts"
+  name  = "posts"
 [[params.urls.navbar]]
   label = "gallery"
   link  = "/gallery"
+  name  = "gallery"
+[[params.urls.navbar]]
+  label = "cooking"
+  link  = "/cooking"
+  name  = "cooking"
 
-# home links
-[[params.urls.home]]
+# socials links
+[[params.urls.socials]]
   name  = "Email"
   label = "yifei@yfxu.net"
   link  = "mailto:yifei@yfxu.net"
-  iconClass = "fa-solid fa-envelope"
-[[params.urls.home]]
+[[params.urls.socials]]
   name  = "GitHub"
   label = "yfxu"
   link  = "https://github.com/yfxu"
-  iconClass = "fa-brands fa-github"
-[[params.urls.home]]
-  name  = "osu!"
-  label = "Feiri"
-  link  = "https://osu.ppy.sh/u/3214844"
-  iconClass = "fa-solid fa-circle"
-[[params.urls.home]]
-  name  = "Discord"
-  label = "Feiri#1221"
-  link  = "https://discord.com/users/121395681742159875"
-  iconClass = "fa-brands fa-discord"
+[[params.urls.socials]]
+  name  = "SourceHut"
+  label = "~yfxu"
+  link  = "https://git.sr.ht/~yfxu"
+[[params.urls.socials]]
+  name  = "Flickr"
+  label = "yifei-xu"
+  link  = "https://www.flickr.com/photos/196684962@N07/"
 
 # footer links
-[[params.urls.footer]]
-  name  = "Email"
-  label = "Email"
-  link  = "mailto:yifei@yfxu.net"
-[[params.urls.footer]]
-  name  = "Source"
-  label = "GitHub"
-  link  = "https://github.com/yfxu/yfxu.github.io"
 [[params.urls.footer]]
   name  = "RSS"
   label = "RSS"

@@ -2,15 +2,33 @@
 <html>
   {{- partial "head.html" . -}}
   <body>
-      <div class="content-wrapper">
+    <div class="left-body"></div>
+    <div class="content-wrapper">
+      <div class="content-wrapper-left">
+        <div class="title">
+            <a href="/" class="title alt-style"><b>{{.Site.Title}}</b></a><span class="accented">.</span>
+        </div>
+        <div class="socials">
+        {{ range .Site.Params.urls.socials }}
+        <a href="{{ .link }}" class="alt-style">{{ .name }}</a>    
+        {{ end }}
+        </div>
+      </div>
+      <div class="narrow-header">
+        <div class="title">
+            <a href="/" class="title alt-style"><b>{{.Site.Title}}</b></a><span class="accented">.</span>
+        </div>
+      </div>
+      <div class="content-wrapper-right">
         {{- partial "header.html" . -}}
-        <br><br>
         <div class="main-content">
           {{- block "main" . }}
           {{- end }}
         </div>
-        <br><br>
+        <br>
         {{ partial "footer.html" . }}
       </div>
+    </div>
+    <div class="right-body"></div>
   </body>
 </html>

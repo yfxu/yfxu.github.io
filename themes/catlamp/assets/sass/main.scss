@@ -1,8 +1,7 @@
 // base colors
 $color-vanta: #000000;
-// $color-black: #545a59;
-$color-black: $color-vanta;
-$color-light: #666666;
+$color-black: #202020;
+$color-light: #919191;
 $color-gray: #dddddd;
 $color-grey: #f0f0f0;
 $color-white: #ffffff;
@@ -11,10 +10,15 @@ $color-teal: #09a88e;
 $color-aqua: #0e84b5;
 $color-orange: #ff9900;
 
+$color-dark-blue-1: #0d0d0e; 
+$color-dark-blue-2: #232325; 
+
 // component colors
 $bg-color: $color-white;
+$bg-color-2: $color-grey;
 $font-color: $color-black;
-$line-color: $color-black;
+$font-color-2: $color-light;
+$line-color: $color-light;
 $accent-color: $color-teal;
 $accent-color-2: $color-orange;
 $code-bg-color: $color-grey;
@@ -24,8 +28,8 @@ $code-color: $color-aqua;
 $font-families: Helvetica, sans-serif;
 
 // constants
-$max-width: 500px;
-$resize-width: 400px;
+$max-width: 720px;
+$resize-width: 480px;
 $border-radius: 2px;
 
 // Universal Tags
@@ -34,59 +38,105 @@ html {
 }
 
 body {
-  margin: 1rem 0;
-  padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
   font-size: 1rem;
   // line-height: 1.375rem;
-  background-color: $bg-color;
+  background-color: $bg-color-2;
   color: $font-color;
   font-family: $font-families;
-}
-
-@media only screen and (max-width: $resize-width) {
-  body {
-    font-size: 18px;
-  }
 }
 
 nav {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
+  column-gap: 1rem;
+  padding-top: 1rem;
 
-  a {
-    padding: 0.25rem 0;
-    color: $font-color;
-  }
+  > a {
+    font-weight: bold;
 
-  div.nav-title {
-    font-size: 2rem;
-  }
-
-  div.nav-links {
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 1rem;
+    &.true {
+      color: $font-color;
+    }
   }
 }
 
 footer {
-  line-height: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.25rem;
+  margin-bottom: 1rem;
 }
 
 div {
-  &.content-wrapper {
-    margin: auto;
-    max-width: $max-width;
-    // display: flex;
-    // flex-direction: column;
-    // row-gap: 1rem;
+  &.left-body {
+    flex-grow: 1;
+    // height: 10rem;
   }
 
+  &.right-body {
+    flex-grow: 1;
+    background-color: $bg-color;
+    min-height: 100vh;
+  }
+
+  &.content-wrapper {
+    display: flex;
+    max-width: $max-width;
+    flex-direction: row;
+    position: relative;
+
+    > div.narrow-header {
+      display: none;
+    }
+
+    @media only screen and (max-width: $resize-width) {
+      > div.narrow-header {
+        display: block;
+        padding-left: 1rem;
+      }
+    }
+
+    > div.content-wrapper-left {
+      margin: 0 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      > div.socials {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.25rem;
+        position: sticky;
+        bottom: 1rem;
+        align-items: flex-end;
+        font-weight: bold;
+      }
+    }
+
+    @media only screen and (max-width: $resize-width) {
+      > div.content-wrapper-left {
+        display: none;
+      }
+    }
+
+    > div.content-wrapper-right {
+      background-color: $bg-color;
+      padding: 0.5rem 1rem 0 1rem;
+    }
+  }
+
+  @media only screen and (max-width: $resize-width) {
+    &.content-wrapper {
+      flex-direction: column;
+    }
+  }
+
+
   &.content {
-    // padding: 0 1rem;
-    // line-height: 1.25rem;
     margin: 0 auto;
   }
 
@@ -95,85 +145,31 @@ div {
   }
 
   &.name-container {
-    margin-bottom: 1rem;
+    margin: 1rem 0;
 
     p {
       margin: 0;
     }
   }
 
-  &.home-container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+  &.title {
+    text-align: right;
+    padding: 0.5rem 0;
+    position: sticky;
+    font-size: 2rem;
+    top: 0;
+  }
 
-    div.title-container {
-      // display: flex;
-      // flex-direction: column;
-      // text-align: center;
-      margin: auto;
-      font-weight: 900;
-      font-size: 5rem;
-      line-height: initial;
-      margin-bottom: 1rem;
-      // -webkit-text-stroke: 1px $font-color;
-      // color: #0000;
-    }
-
-    div.home-grid {
-      // margin: auto;
-      // font-size: 1.5rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
-      // border: 1px solid $line-color;
-      // padding: 1rem;
-      // border-radius: 0.25rem;
-
-      > div.home-link-button {
-        border: 2px solid $color-black;
-        background-color: $color-teal;
-        padding: 0.125rem 0.5rem;
-        border-radius: 2px;
-      }
-
-      > div.home-link-row {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 1rem;
-        align-items: baseline;
-        // border: 1px solid $line-color;
-        // padding: 0.25rem 1rem;
-        // border-radius: 0.25rem;
-
-        > div.flex-grow {
-          display: flex;
-          flex-direction: row;
-          // flex-grow: 1;
-
-          > div.icon-container {
-            width: 1rem;
-            margin-right: 0.75rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-        }
-
-        > span.fill-row {
-          flex-grow: 1;
-          height: 0.75rem;
-          border-bottom: 1px solid $line-color;
-        }
-      }
+  @media only screen and (max-width: $resize-width) {
+    &.title {
+      text-align: left;
     }
   }
 
   &.gallery {
     margin-bottom: 1rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
     gap: 1rem;
 
     a.single-image {
@@ -183,10 +179,6 @@ div {
       background-size: cover;
     }
   }
-
-  // &.highlight {
-  //   border: 1px solid $line-color;
-  // }
 }
 
 ul.posts-list {
@@ -263,6 +255,14 @@ a {
     text-decoration: none;
     color: $accent-color-2;
   }
+
+  &.alt-style {
+    color: $color-light;
+
+    &:hover {
+      color: $font-color;
+    }
+  }
 }
 
 img {
@@ -327,9 +327,9 @@ sup {
 
 blockquote {
   margin-left: 1rem;
+  border-left: 2px solid $accent-color;
 
   > p {
     padding-left: 1rem;
-    border-left: 2px solid $accent-color;
   }
 }
