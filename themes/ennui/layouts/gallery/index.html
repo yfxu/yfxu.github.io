@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{ with .GetPage "/gallery" }}
+<h1>{{ .Title }} ({{ .Pages.Len }})</h1>
+<div class="gallery">
+    {{- range .Pages -}}
+      <a href="{{ .Permalink }}">
+        <img src="{{ .Params.ImageUrl }}" loading="lazy">
+      </a>
+    {{- end -}}
+  </div>
+{{ end }}
+{{ end }}

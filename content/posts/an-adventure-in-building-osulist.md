@@ -1,7 +1,6 @@
 ---
 title: "An Adventure in Building osulist"
 date: 2021-01-24
-tags: ["development"]
 draft: false
 location: "Calgary, Canada"
 ---

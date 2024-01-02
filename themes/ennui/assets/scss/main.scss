@@ -1,0 +1,110 @@
+@use "colors";
+@use "posts";
+
+@mixin text-primary {
+  color: colors.$text-primary;
+}
+
+@mixin text-secondary {
+  color: colors.$text-secondary;
+}
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  @include text-primary();
+  background-color: colors.$background;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+body {
+  margin: 2rem auto;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  width: min(100vw, 600px);
+}
+
+div.name-header {
+  text-transform: lowercase;
+  margin-bottom: 2rem;
+  h1 { margin: 0; }
+  h4 { 
+    margin: 0;
+    @include text-secondary();
+  }
+}
+
+div.gallery {
+  columns: 250px auto;
+  column-gap: 0.25rem;
+  img {
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+}
+
+nav {
+  @include flex-row();
+  background-color: colors.$accent;
+  padding: 0.25rem 1rem;
+  column-gap: 1rem;
+  margin-bottom: 2rem;
+
+  a {
+    color: colors.$background;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+      color: colors.$text-primary;
+    }
+  }
+}
+
+a {
+  color: colors.$accent;
+  text-decoration: none;
+  
+  &:hover {
+    color: colors.$text-secondary;
+  }
+}
+
+img {
+  width: 100%;
+  // border-radius: 4px;
+}
+
+article {
+  line-height: 1.375em;
+}
+
+a.gallery-tag:before {
+  content: "#"
+}
+
+div.image-info {  
+  p.image-location {
+    @include text-secondary();
+    margin: 0;
+  }
+
+  p.image-time {
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+}
+
+
+.text-accent {
+  color: colors.$accent;
+}
