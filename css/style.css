@@ -1,0 +1,160 @@
+ul.posts-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+li.post-single {
+  margin: 0.5rem 0;
+}
+
+span.post-date {
+  color: #2e2d2f;
+  font-size: 0.75rem;
+}
+
+div.footnotes ol {
+  counter-reset: footnotes;
+  padding-left: 1rem;
+}
+div.footnotes ol li {
+  counter-increment: footnotes;
+  padding-left: 1rem;
+}
+div.footnotes ol li::marker {
+  content: "[" counter(footnotes) "]";
+  margin-right: 1rem;
+}
+
+sup a.footnote-ref::before {
+  content: "[";
+}
+sup a.footnote-ref::after {
+  content: "]";
+}
+
+article sup {
+  line-height: 0;
+}
+
+html {
+  color: #2e2d2f;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 2rem auto;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  max-width: max(60vw, 600px);
+}
+
+div.name-header {
+  text-transform: lowercase;
+  margin-bottom: 2rem;
+}
+div.name-header h1 {
+  margin: 0;
+}
+div.name-header h4 {
+  margin: 0;
+  color: #a6a9ad;
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -2px;
+}
+div.gallery::after {
+  content: "";
+  flex-grow: 999999999;
+}
+div.gallery > a {
+  display: block;
+  margin: 2px;
+  position: relative;
+  min-height: 200px;
+  flex-grow: 1;
+  background-color: violet;
+}
+div.gallery > a img {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 200px;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #5e60dc;
+  padding: 0.25rem 1rem;
+  column-gap: 1rem;
+  margin-bottom: 2rem;
+}
+nav a {
+  color: #ffffff;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #2e2d2f;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  margin-top: 1rem;
+}
+footer a {
+  font-weight: bold;
+}
+
+blockquote {
+  border-left: 4px solid #5e60dc;
+  margin-left: 0;
+  padding-left: 2rem;
+}
+
+a {
+  color: #5e60dc;
+  text-decoration: none;
+}
+a:hover {
+  color: #a6a9ad;
+}
+
+article {
+  line-height: 1.375em;
+}
+article h1, article h2, article h3 {
+  line-height: 1.5em;
+}
+article img {
+  width: 100%;
+}
+
+hr {
+  border-top: 1px solid #2e2d2f;
+  border-bottom: 0;
+}
+
+a.gallery-tag:before {
+  content: "#";
+}
+
+div.image-info p.image-location, div.post-info p.image-location {
+  color: #a6a9ad;
+  margin: 0;
+}
+div.image-info p.image-time, div.image-info p.post-time, div.post-info p.image-time, div.post-info p.post-time {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.text-accent {
+  color: #5e60dc;
+}
