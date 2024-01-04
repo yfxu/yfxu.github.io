@@ -4,6 +4,8 @@ date: 2021-09-22T22:45:01-07:00
 tags: ["canada", "british_columbia", "vancouver", "ubc", "indoor_scene", "yellow"]
 location: "UBC Life Building"
 imageUrl: "https://live.staticflickr.com/65535/52418469350_4016792205_b.jpg"
+width: 4032
+height: 2268
 ---
 
 Isn't this wall just so yellow??

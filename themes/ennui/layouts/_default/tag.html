@@ -1,11 +1,15 @@
 {{ define "main" }}
 {{ with ($.Site.GetPage .RelPermalink) }}
-<h1>#{{ .Title }} ({{ .Pages.Len }})</h1>
+<article>
+  <h1>#{{ .Title }} ({{ .Pages.Len }})</h1>
+  {{ .Content }}
+</article>
 <div class="gallery">
   {{ range .Pages }}
-    <a href="{{ .Permalink }}">
-      <img src="{{ .Params.ImageUrl }}" loading="lazy">
-    </a>
+  <a href="{{ .Permalink }}" style="width:{{ math.Div (math.Mul .Params.Width 200) .Params.Height }}px; flex-grow:{{ math.Div (math.Mul .Params.Width 200) .Params.Height }}">
+    <i style="padding-bottom:{{ math.Mul (math.Div .Params.Width .Params.Height) 100}}%"></i>
+    <img src="{{ .Params.ImageUrl }}" loading="lazy">
+  </a>
   {{ end }}
 </div>
 {{ end }}

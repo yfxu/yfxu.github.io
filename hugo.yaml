@@ -26,3 +26,13 @@ menus:
     - name: photography
       pageRef: /gallery
       weight: 40
+  footer:
+    - name: source
+      pageRef: "https://github.com/yfxu/yfxu.github.io"
+      weight: 10
+    - name: email
+      pageRef: "mailto:yifei@yfxu.net"
+      weight: 20
+    - name: github
+      pageRef: "https://github.com/yfxu"
+      weight: 30

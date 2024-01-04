@@ -1,6 +1,9 @@
 {{- define "main" -}}
 <article>
-  <h1>{{ .Title }}</h1>
+  <div class="post-info">
+    <h1 class="post-title">{{ .Title }}</h1>
+    <p class="post-time">{{ partial "short-date-time.html" .Params.Date }}</p>
+  </div>
   {{ .Content }}
 </article>
 {{- end -}}

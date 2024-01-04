@@ -4,6 +4,8 @@ date: 2022-10-08T21:02:02+09:00
 tags: ["japan", "tokyo", "shibuya", "people", "warm", "lights", "food_and_drink", "urban_scenery"]
 location: "渋谷横丁 (Shibuya Yokochou)"
 imageUrl: "https://live.staticflickr.com/65535/52417876316_2ca923806a_b.jpg"
+width: 3541
+height: 2870
 ---
 
 Shibuya Yokochou is a magical and noisy street filled with small restaurants along one side of the entire street. It's got that super down-to-earth cheap wooden tables and plastic chairs vibe all about, where people can yap about their lives and stuff while chowing down chicken skewers and beer. The entire street glows with a comfy amber aura throughout the evening while customers come and go.

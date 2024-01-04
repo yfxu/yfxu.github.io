@@ -1,9 +1,11 @@
 ---
 title: "It's Getting Dark"
 date: 2022-10-10T17:00:54+09:00
-tags: ["japan", "takaosan", "vehicle", "natural_scenery", "lights"]
+tags: ["japan", "takaosan", "vehicles", "natural_scenery", "lights"]
 location: "高尾山、日本 (Takaosan, Japan)"
 imageUrl: "https://live.staticflickr.com/65535/52418389263_fe12c63798_b.jpg"
+width: 4310
+height: 2870
 ---
 
 Story time! Japan celebrates a statutory holiday called "Sports Day" every year. It's a day dedicated to the pursuit of health and longevity through physical activities and general healthy lifestyle choices.

@@ -6,7 +6,7 @@ weight = 1
 
 Hi, I'm Yifei (逸飞)! 
 
-This is my personal website where I maintain a very cool blog and share various photos I've taken on my camera (FujiFilm X100). Enjoy your stay!
+This is my personal website where I maintain a very cool blog and share various photos I've taken on my camera (FujiFilm X100) and on my smartphone (Samsung Galaxy S9). Enjoy your stay!
 
 This website doesn't use any JavaScript or cookies, just some plain HTML and CSS built with Hugo, hosted on GitHub Pages. The website theme was designed and coded by myself ! :D !
 
