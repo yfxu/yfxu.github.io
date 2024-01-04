@@ -1,0 +1,30 @@
+// This stylesheet contains overrides for Hugo-generated elements
+
+div.footnotes {
+  ol {
+    counter-reset: footnotes;
+    padding-left: 1rem;
+
+    li {
+      counter-increment: footnotes;
+      padding-left: 1rem;
+      &::marker {
+        content: "[" counter(footnotes) "]";
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+
+sup {
+  a.footnote-ref {
+    &::before { content: "["; }
+    &::after  { content: "]"; }
+  }
+}
+
+article {
+  sup {
+    line-height: 0;
+  }
+}
