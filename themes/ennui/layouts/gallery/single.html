@@ -1,0 +1,16 @@
+{{- define "main" -}}
+<article>
+  <img src="{{ .Params.ImageUrl }}">
+  <div class="image-info">
+    <h1 class="image-title">{{ .Title }}</h1>
+    <p class="image-location">{{ .Params.Location }}</p>
+    <p class="image-time">{{ partial "long-date-time.html" .Params.Date }}</p>
+  </div>
+  <p>
+    {{ range sort .Params.Tags }}
+      <a href="/tags/{{ . }}" class="gallery-tag">{{ . }}</a>
+    {{ end }}
+    </p>
+  {{ .Content }}
+</article>
+{{- end -}}

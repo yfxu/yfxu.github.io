@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  {{- partial "head.html" . -}}
+  <body>
+    <div class="name-header">
+      <h1>{{ .Site.Params.Author.StylizedName }}</h1>
+      <h4>
+        {{ .Site.Params.Author.FirstName }}
+        {{ .Site.Params.Author.LastName }}<span class="text-accent">.</span>
+      </h4>
+    </div>
+    {{- partial "navbar.html" . -}}
+    {{- block "main" . }}
+    {{- end }}
+    {{- partial "footer.html" . -}}
+  </body>
+</html>

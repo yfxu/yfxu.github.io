@@ -4,4 +4,4 @@ layout = "index"
 weight = 1
 +++
 
-some random pictures I've taken on my phone:
+All photos here are licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (Public Domain). (Although credits would still be nice :D) 

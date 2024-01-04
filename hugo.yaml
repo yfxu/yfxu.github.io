@@ -1,0 +1,38 @@
+baseURL: yfxu.net
+languageCode: en-ca
+theme: ennui
+params:
+  author:
+    firstName: Yifei
+    lastName: Xu
+    stylizedName: 徐逸飞
+  contact:
+    email: yifei@yfxu.net
+    github: yfxu
+  descriptionText: "I'm a 4th year Computer Engineering undergraduate student @UWaterloo."
+  postsPreviewCount: 5
+title: Yifei Xu
+menus:
+  main:
+    - name: home
+      pageRef: /
+      weight: 10
+    - name: about
+      pageRef: /about
+      weight: 20
+    - name: blog
+      pageRef: /posts
+      weight: 30
+    - name: photography
+      pageRef: /gallery
+      weight: 40
+  footer:
+    - name: source
+      pageRef: "https://github.com/yfxu/yfxu.github.io"
+      weight: 10
+    - name: email
+      pageRef: "mailto:yifei@yfxu.net"
+      weight: 20
+    - name: github
+      pageRef: "https://github.com/yfxu"
+      weight: 30

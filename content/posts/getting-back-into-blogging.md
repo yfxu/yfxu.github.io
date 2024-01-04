@@ -1,7 +1,6 @@
 ---
 title: "Getting Back Into Blogging"
 date: 2020-11-28T20:48:20-07:00
-tags: ["blog", "blogging"]
 draft: false
 location: "Vancouver, Canada"
 ---
