@@ -1,0 +1,12 @@
+name: "ennui"
+license: "MIT"
+licenselink: "/mit.txt"
+description: ""
+homepage: "yfxu.net"
+tags: []
+features: []
+min_version: "0.121.0"
+
+author:
+  name: "Yifei"
+  homepage: "yfxu.net"
