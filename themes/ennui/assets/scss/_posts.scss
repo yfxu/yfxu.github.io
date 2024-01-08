@@ -1,4 +1,4 @@
-@use "colors";
+@use "variables";
 
 ul.posts-list {
   padding: 0;
@@ -10,7 +10,7 @@ li.post-single {
 }
 
 span.post-date {
-  color: colors.$text-secondary;
+  color: var(--color-text-secondary);
   font-size: 0.75rem;
   margin-right: 1rem;
 }

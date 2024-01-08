@@ -1,15 +1,15 @@
-// $color-1: #ffffff;
-// $color-2: #a6a9ad;
-// $color-3: #2e2d2f;
-// $color-4: #45b694;
+:root {
+  --color-background: #ffffff;
+  --color-text-primary: #3b393d;
+  --color-text-secondary: #a6a9ad;
+  --color-accent: #45b694;
+}
 
-// $color-5: #000000;
-// $color-6: #848586;
-// $color-7: #dddddd;
-// $color-8: #55d4ae;
-
-// @media (prefers-color-scheme: light) {
-//   :root {
-//     --color-background: $
-//   }
-// }
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #28252B;
+    --color-text-primary: #ede3dd;
+    --color-text-secondary: #8d8683;
+    --color-accent: #03CEA4;
+  }
+}
