@@ -2,8 +2,8 @@
 title: "NOW PLAYING"
 date: 2022-09-06T12:58:10+06:00
 tags: ["canada", "alberta", "calgary", "kensington", "urban_scenery", "movie_theatre"]
-location: "Kensington, Calgary"
-imageUrl: "https://live.staticflickr.com/65535/52479596623_43d583d7ff_b.jpg"
+location: "Kensington, Calgary, Canada"
+imageUrl: "https://files.yfxu.net/DSCF4001_06780251dd238a28147a4bf45fd29ad6.jpg"
 width: 4310
 height: 2870
 ---

@@ -28,11 +28,11 @@ menus:
       weight: 40
   footer:
     - name: source
-      pageRef: "https://github.com/yfxu/yfxu.github.io"
+      url: "https://github.com/yfxu/yfxu.github.io"
       weight: 10
     - name: email
-      pageRef: "mailto:yifei@yfxu.net"
+      url: "mailto:yifei@yfxu.net"
       weight: 20
     - name: github
-      pageRef: "https://github.com/yfxu"
+      url: "https://github.com/yfxu"
       weight: 30

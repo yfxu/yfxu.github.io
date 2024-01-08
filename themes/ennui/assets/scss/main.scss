@@ -30,7 +30,7 @@ body {
   margin: 2rem auto;
   box-sizing: border-box;
   padding: 0 1rem;
-  max-width: max(60vw, 600px);
+  max-width: 720px;
 }
 
 div.name-header {
@@ -59,7 +59,7 @@ div.gallery {
     position: relative;
     min-height: 200px;
     flex-grow: 1;
-    background-color: violet;
+    background-color: colors.$background;
     
     img {
       max-width: 100%;
@@ -146,6 +146,12 @@ div.image-info, div.post-info {
     font-size: 0.75rem;
     font-weight: bold;
   }
+}
+
+div.tags-list {
+  column-count: auto;
+  column-width: 10em;
+  word-wrap: break-word;
 }
 
 

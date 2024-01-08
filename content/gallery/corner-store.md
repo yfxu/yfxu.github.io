@@ -3,7 +3,7 @@ title: "DSCF8801"
 date: 2023-07-05T15:18:08-07:00
 tags: ["canada", "vancouver", "british_columbia", "urban_scenery", "indoor_scene", "food_and_drink"]
 location: "Gastown, Vancouver"
-imageUrl: "https://live.staticflickr.com/65535/53230759389_bbff6b1005_b.jpg"
+imageUrl: "https://files.yfxu.net/DSCF8801_2f9452ab2bf24a1e18f38bbb0a53a219.jpg"
 width: 4310
 height: 2870
 ---

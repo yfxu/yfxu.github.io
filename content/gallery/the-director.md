@@ -3,7 +3,7 @@ title: "DSCF5431"
 date: 2022-12-03T13:15:54+09:00
 tags: ["japan", "tokyo", "tsukiji_fish_market", "people", "urban_scenery"]
 location: "築地場外市場 (Tsukiji Outer Market)"
-imageUrl: "https://live.staticflickr.com/65535/53230348056_ffdc49841f_b.jpg"
+imageUrl: "https://files.yfxu.net/DSCF5431_91638e3ea1db3e80aac23c01603404db.jpg"
 width: 4310
 height: 2870
 ---

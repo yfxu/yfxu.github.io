@@ -2,8 +2,8 @@
 title: "Akihabara Overblown"
 date: 2022-11-06T12:03:59+09:00
 tags: ["japan", "tokyo", "akihabara", "colorful", "urban_scenery", "people"]
-location: "Akihabara, Japan"
-imageUrl: "https://live.staticflickr.com/65535/53229471532_65a6741087_b.jpg"
+location: "秋葉原、東京 (Akihabara, Tōkyō)"
+imageUrl: "https://files.yfxu.net/DSCF4990_44769200448816026f9cc2f040ce7210.jpg"
 width: 4310
 height: 2870
 ---

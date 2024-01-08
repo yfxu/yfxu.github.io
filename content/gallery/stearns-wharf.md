@@ -3,7 +3,7 @@ title: "Stearns Wharf"
 date: 2023-08-27T18:09:03-07:00
 tags: ["urban_scenery", "usa", "california", "santa_barbara", "vehicles"]
 location: "Stearn's Wharf, Santa Barbara"
-imageUrl: "https://live.staticflickr.com/65535/53383033135_8bb68ed66e_b.jpg"
+imageUrl: "https://files.yfxu.net/DSCF9428_2200bc75073723bb5cec862e5965b9b7.jpg"
 width: 4310
 height: 2870
 ---

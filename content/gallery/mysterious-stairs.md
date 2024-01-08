@@ -3,7 +3,7 @@ title: "DSCF4450"
 date: 2022-10-10T15:14:04+09:00
 tags: ["japan", "takaosan", "trees", "temple", "natural_scenery"]
 location: "高尾山、日本 (Takaosan, Japan)"
-imageUrl: "https://live.staticflickr.com/65535/52417373202_696dbe8088_b.jpg"
+imageUrl: "https://files.yfxu.net/DSCF4450_fb2c0f9123c38b5472cb965abefa8283.jpg"
 width: 4310
 height: 2870
 ---

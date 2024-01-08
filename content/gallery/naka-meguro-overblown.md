@@ -2,8 +2,8 @@
 title: "DSCF5839"
 date: 2023-04-01T12:23:23+09:00
 tags: ["japan", "tokyo", "naka_meguro", "sakura", "trees", "urban_scenery"]
-location: "中目黒、東京都 (Naka Meguro, Tokyo Metropolitan Area)"
-imageUrl: "https://live.staticflickr.com/65535/53230658743_b28393d54b_b.jpg"
+location: "中目黒、東京 (Naka Meguro, Tōkyō)"
+imageUrl: "https://files.yfxu.net/DSCF5839_01874af208fbc46dd9e6b107cb701bba.jpg"
 width: 4310
 height: 2870
 ---

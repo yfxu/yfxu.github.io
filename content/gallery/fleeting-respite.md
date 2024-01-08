@@ -3,8 +3,8 @@ title: "Fleeting Respite"
 date: 2022-10-08T21:02:02+09:00
 tags: ["japan", "tokyo", "shibuya", "people", "warm", "lights", "food_and_drink", "urban_scenery"]
 location: "渋谷横丁 (Shibuya Yokochou)"
-imageUrl: "https://live.staticflickr.com/65535/52417876316_2ca923806a_b.jpg"
-width: 3541
+imageUrl: "https://files.yfxu.net/DSCF4294_1a6b4ae0c9003463c6705a7d598e230c.jpg"
+width: 4310
 height: 2870
 ---
 

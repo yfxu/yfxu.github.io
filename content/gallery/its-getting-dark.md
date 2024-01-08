@@ -3,7 +3,7 @@ title: "It's Getting Dark"
 date: 2022-10-10T17:00:54+09:00
 tags: ["japan", "takaosan", "vehicles", "natural_scenery", "lights"]
 location: "高尾山、日本 (Takaosan, Japan)"
-imageUrl: "https://live.staticflickr.com/65535/52418389263_fe12c63798_b.jpg"
+imageUrl: "https://files.yfxu.net/DSCF4560_46a43530c10bdc200c038a0be1e899a4.jpg"
 width: 4310
 height: 2870
 ---
@@ -20,10 +20,10 @@ Our original plan was to time our hike so that we'd reach the summit a little bi
 
 Well turns out leaving early was the right choice, because boy was it getting dark. I mentioned that the hiking route was fairly well-developed, but that was only mostly true up until you considered the lighting aspect. There were no lights at all!!! We were just walking in a wooded mountain (on a paved path), with no lights to help see where we were going. And while the route was still paved, there were definitely some steep paths that forced us to take care with our footing, so having to do all of that in the dark just multiplied the difficulty factor by a whole tenfold.
 
-This photo was taken during our descent in the darkness just as a little van came driving down the path, illuminating our path for a brief, fleeting moment. There definitely wasn't enough space in the vehicle for five of us people to all sueeze in, and I definitely wasn't taking any chances with discovering what the Japanese attitude towards hitch-hiking was, especially given our lack of skill in the Japanese language department.
+This photo was taken during our descent in the darkness just as a little van came driving down the mountain, illuminating our path for a brief, fleeting moment. There definitely wasn't enough space in the vehicle for five of us people to all squeeze in, and I definitely wasn't taking any chances with discovering what the Japanese attitude towards hitch-hiking was, especially given our lack of skill in the Japanese language department.
+
+...
 
 We all made it back home alive!
-
----
 
 We were also originally planning on visiting the local onsen for a nice rest after our trip. After all, the onsen was conveniently located right next to hiking trail entrance! Unfortunately a few of our party members were not too keen on dropping their pants down in front of each other, which I will say is entirely understandable.
