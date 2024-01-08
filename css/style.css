@@ -8,8 +8,9 @@ li.post-single {
 }
 
 span.post-date {
-  color: #2e2d2f;
+  color: #848586;
   font-size: 0.75rem;
+  margin-right: 1rem;
 }
 
 div.footnotes ol {
@@ -37,8 +38,8 @@ article sup {
 }
 
 html {
-  color: #2e2d2f;
-  background-color: #ffffff;
+  color: #dddddd;
+  background-color: #000000;
   font-family: Arial, sans-serif;
 }
 
@@ -46,7 +47,7 @@ body {
   margin: 2rem auto;
   box-sizing: border-box;
   padding: 0 1rem;
-  max-width: max(60vw, 600px);
+  max-width: 720px;
 }
 
 div.name-header {
@@ -58,7 +59,7 @@ div.name-header h1 {
 }
 div.name-header h4 {
   margin: 0;
-  color: #a6a9ad;
+  color: #848586;
 }
 
 div.gallery {
@@ -76,7 +77,7 @@ div.gallery > a {
   position: relative;
   min-height: 200px;
   flex-grow: 1;
-  background-color: violet;
+  background-color: #000000;
 }
 div.gallery > a img {
   max-width: 100%;
@@ -89,17 +90,17 @@ div.gallery > a img {
 nav {
   display: flex;
   flex-direction: row;
-  background-color: #5e60dc;
+  background-color: #55d4ae;
   padding: 0.25rem 1rem;
   column-gap: 1rem;
   margin-bottom: 2rem;
 }
 nav a {
-  color: #ffffff;
+  color: #000000;
   font-weight: bold;
 }
 nav a:hover {
-  color: #2e2d2f;
+  color: #dddddd;
 }
 
 footer {
@@ -113,17 +114,17 @@ footer a {
 }
 
 blockquote {
-  border-left: 4px solid #5e60dc;
+  border-left: 4px solid #55d4ae;
   margin-left: 0;
   padding-left: 2rem;
 }
 
 a {
-  color: #5e60dc;
+  color: #55d4ae;
   text-decoration: none;
 }
 a:hover {
-  color: #a6a9ad;
+  color: #848586;
 }
 
 article {
@@ -137,7 +138,7 @@ article img {
 }
 
 hr {
-  border-top: 1px solid #2e2d2f;
+  border-top: 1px solid #dddddd;
   border-bottom: 0;
 }
 
@@ -146,7 +147,7 @@ a.gallery-tag:before {
 }
 
 div.image-info p.image-location, div.post-info p.image-location {
-  color: #a6a9ad;
+  color: #848586;
   margin: 0;
 }
 div.image-info p.image-time, div.image-info p.post-time, div.post-info p.image-time, div.post-info p.post-time {
@@ -155,6 +156,12 @@ div.image-info p.image-time, div.image-info p.post-time, div.post-info p.image-t
   font-weight: bold;
 }
 
+div.tags-list {
+  column-count: auto;
+  column-width: 10em;
+  word-wrap: break-word;
+}
+
 .text-accent {
-  color: #5e60dc;
+  color: #55d4ae;
 }
