@@ -1,7 +1,7 @@
 ---
 title: "DSCF9400"
 date: 2023-08-27T17:32:56-07:00
-tags: ["usa", "california", "santa_barbara", "trees", "sky"]
+tags: ["usa", "california", "santa_barbara", "trees", "skies"]
 location: "East Beach, Santa Barbara"
 imageUrl: "https://files.yfxu.net/DSCF9400_46487bc6359cd96601c37a379864b9b1.jpg"
 width: 4310

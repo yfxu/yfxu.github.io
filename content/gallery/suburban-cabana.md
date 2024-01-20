@@ -1,7 +1,7 @@
 ---
 title: "Suburban Cabana"
 date: 2021-05-02T01:18:41-06:00
-tags: ["sky", "trees", "calgary", "alberta", "canada"]
+tags: ["skies", "trees", "calgary", "alberta", "canada"]
 location: "Tuscany, Calgary, Canada"
 imageUrl: "https://live.staticflickr.com/65535/52418311449_dbba79ba01_b.jpg"
 width: 4032

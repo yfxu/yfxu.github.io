@@ -2,7 +2,7 @@
 title: "DSCF5603"
 date: 2023-01-21T20:40:05+09:00
 tags: ["japan", "tokyo", "yokohama", "chinatown", "urban_scenery", "lights", "nightlife"]
-location: "横浜中華街、東京都 (Yokohama Chinatown, Tokyo Metropolitan Area)"
+location: "横浜中華街、東京都 (Yokohama Chinatown, Tōkyō)"
 imageUrl: "https://files.yfxu.net/DSCF5603_f721c6ec505426d8cfbb0a53ab11f2e7.jpg"
 width: 4310
 height: 2870
