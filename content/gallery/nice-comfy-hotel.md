@@ -10,7 +10,7 @@ height: 2870
 
 ### Part 1 of 3
 
-Jasmine and her friends arrived in Japan 1 day after I had to move out of my Ginza apartment. This left me with one day in-between to find some temporary accommodation. I elected to try staying in one of those msytical CAPSULE HOTELS that I've heard so much about on social media.
+Jasmine and her friends arrived in Japan 1 day after I had to move out of my Ginza apartment. This left me with one day in-between to find some temporary accommodation. I elected to try staying in one of those mystical CAPSULE HOTELS that I've heard so much about on social media.
 
 In case you haven't seen photos of them, a capsule hotel is essentially just an accommodation where instead of renting out rooms or suites for the night, you rent out a small rectangular prism of space inside a wall that has nothing more than a twin-sized futon and probably a few hooks for your coats. That's it. Oh and probably a little light.
 
