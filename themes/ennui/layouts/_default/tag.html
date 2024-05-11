@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ with ($.Site.GetPage .RelPermalink) }}
-<article>
+<article class="contain">
   <h1>#{{ .Title }} ({{ .Pages.Len }})</h1>
   {{ .Content }}
 </article>

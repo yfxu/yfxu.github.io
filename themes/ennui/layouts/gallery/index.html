@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ with .GetPage "/gallery" }}
-<article>
+<article class="contain">
   <h1>{{ .Title }} ({{ .Pages.Len }})</h1>
   <a href="/tags">tags</a>
   {{ .Content }}

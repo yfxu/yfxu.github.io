@@ -2,7 +2,7 @@
 <html>
   {{- partial "head.html" . -}}
   <body>
-    <div class="name-header">
+    <div class="name-header contain">
       <h1>{{ .Site.Params.Author.StylizedName }}</h1>
       <h4>
         {{ .Site.Params.Author.FirstName }}
@@ -10,6 +10,7 @@
       </h4>
     </div>
     {{- partial "navbar.html" . -}}
+    <hr>
     {{- block "main" . }}
     {{- end }}
     {{- partial "footer.html" . -}}

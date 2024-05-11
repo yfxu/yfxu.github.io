@@ -1,6 +1,29 @@
-{{ define "main" }}
-<article>
-  {{ .Content }}
-  {{ partial "posts-list.html" . }}
-</article>
-{{ end }}
+<!DOCTYPE html>
+<html>
+  {{- partial "head.html" . -}}
+  <body>
+    <div class="home-container">
+      <div class="home-feature">
+        <div class="home-title">
+          <h1>{{ site.Params.Author.StylizedName }}</h1>
+          <h4>{{ site.Params.Author.FirstName}} {{ site.Params.Author.LastName}} <span class="text-accent">.</span></h4>
+        </div>
+        <div class="home-socials">
+          {{- range site.Params.HomePageSocials }}
+          <div class="home-social-link text-monospace">
+            <span>{{ .name }}</span>
+            <a href="{{ .url }}">{{ .value }}</a>
+          </div>
+          {{- end }}
+        </div>
+      </div>
+      <div class="home-nav">
+        <nav>
+          {{- range after 1 site.Menus.main }}
+          <a href="{{ .URL }}">{{ .Name }}</a>
+          {{- end }}
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>

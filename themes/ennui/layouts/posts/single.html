@@ -1,8 +1,8 @@
 {{- define "main" -}}
-<article>
+<article class="contain">
   <div class="post-info">
     <h1 class="post-title">{{ .Title }}</h1>
-    <p class="post-time">{{ partial "short-date-time.html" .Params.Date }}</p>
+    <p class="post-time">{{ partial "svg.html" "calendar" }} {{ partial "short-date-time.html" .Params.Date }}</p>
   </div>
   {{ .Content }}
 </article>

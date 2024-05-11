@@ -9,6 +9,19 @@ params:
   contact:
     email: yifei@yfxu.net
     github: yfxu
+  homePageSocials:
+    - name: E-mail
+      value: yifei@yfxu.net
+      url: mailto://yifei@yfxu.net
+    - name: GitHub
+      value: yfxu
+      url: https://github.com/yfxu
+    - name: YouTube
+      value: Yifei Xu
+      url: https://youtube.com/@yifei-xu 
+    - name: osu!
+      value: Feiri
+      url: https://osu.ppy.sh/users/3214844 
   descriptionText: "I'm a 4th year Computer Engineering undergraduate student @UWaterloo."
   postsPreviewCount: 5
 title: Yifei Xu
