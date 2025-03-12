@@ -8,7 +8,7 @@ width: 4310
 height: 2870
 ---
 
-First in my life experiencing a total solar eclipse, and holy shit that was magical. Unfortunately I didn't have a zoom lens so this photo hopefully captures more accurately what the real experience is like seeing the sun through eclipse glasses.
+First time in my life experiencing a total solar eclipse, and holy shit was that magical. Unfortunately I didn't have a zoom lens so this photo hopefully captures more accurately what the real experience is like seeing the sun through eclipse glasses.
 
 A few weeks before the eclipse, I suggested to one of my good friends that we organize a small trip to see the total solar eclipse. That small group ended up becoming 10 or so people, and we struggled for a while coming to a decision on where to go. Initially we were thinking of going to Niagara Falls. It was right under the path of totality, and there were a lot of fun things to do in the area while we waited. Buuuuut eventually we all came to realize that the other six million people living in the GTA were all going to go there as well, so we figured we'd go somewhere else with hopefully fewer people. Spoiler alert: Niagara Falls ended up being completely clouded out for the entire eclipse ! :D !
 

@@ -8,7 +8,7 @@ Hi, I'm Yifei (逸飞)!
 
 This is my personal website where I maintain a very cool blog and share various photos I've taken on my camera (FujiFilm X100) and on my smartphone (Samsung Galaxy S9).
 
-This website doesn't use any JavaScript or cookies, just some plain HTML and CSS built with Hugo, hosted on GitHub Pages. The website theme was designed and coded by myself ! :D !
+This website doesn't use any cookies, and for the most part doesn't use any JavaScript. Pages that do contain scripting will indicate so at the top of the page. This website is built with Hugo, and is hosted on GitHub Pages. The website theme was designed and coded by myself ! :D !
 
 ## life
 

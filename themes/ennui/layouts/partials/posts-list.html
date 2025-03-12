@@ -5,7 +5,7 @@
     {{- range first $pages .Pages -}}
       <li class="post-single">
         <a class="post-title" href="{{ .Permalink }}">{{ .Title }}</a>
-        <span class="post-date" title="{{ .Date }}">
+        <span class="post-date secondary-font" title="{{ .Date }}">
           {{ partial "svg.html" "calendar" }} {{ partial "short-date-time.html" .Params.Date }}
         </span>
       </li>

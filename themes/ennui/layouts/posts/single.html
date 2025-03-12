@@ -2,8 +2,19 @@
 <article class="contain">
   <div class="post-info">
     <h1 class="post-title">{{ .Title }}</h1>
-    <p class="post-time">{{ partial "svg.html" "calendar" }} {{ partial "short-date-time.html" .Params.Date }}</p>
+    <table class="secondary-font">
+      <tr>
+        <td>{{ partial "svg.html" "calendar" }}</td>
+        <td>{{ partial "short-date-time.html" .Params.Date }}</td>
+      </tr>
+      {{ with .Params.Scripts }}
+      <tr>
+        <td>{{ partial "svg.html" "code" }}</td>
+        <td>Uses JavaScript</td>
+      </tr>
+      {{ end }}
+    </table>
   </div>
-  {{ .Content }}
+  {{ .Content | safeHTML }}
 </article>
 {{- end -}}
