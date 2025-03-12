@@ -2,17 +2,22 @@
 <html>
   {{- partial "head.html" . -}}
   <body>
-    <div class="name-header contain">
-      <h1>{{ .Site.Params.Author.StylizedName }}</h1>
-      <h4>
-        {{ .Site.Params.Author.FirstName }}
-        {{ .Site.Params.Author.LastName }}<span class="text-accent">.</span>
-      </h4>
+    <div class="section">
+      <div class="name-header contain">
+        <h1>{{ .Site.Params.Author.StylizedName }}</h1>
+        <h4>
+          {{ .Site.Params.Author.FirstName }}
+          {{ .Site.Params.Author.LastName }}<span class="text-accent">.</span>
+        </h4>
+      </div>
+      {{- partial "navbar.html" . -}}
     </div>
-    {{- partial "navbar.html" . -}}
-    <hr>
-    {{- block "main" . }}
-    {{- end }}
-    {{- partial "footer.html" . -}}
+    <div class="section highlight">
+      {{- block "main" . }}
+      {{- end }}
+    </div>
+    <div class="section">
+      {{- partial "footer.html" . -}}
+    </div>
   </body>
 </html>

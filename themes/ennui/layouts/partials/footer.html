@@ -1,6 +1,22 @@
-<hr>
+<br>
 <footer class="contain">
   {{- range site.Menus.footer }}
     <a href="{{ .URL }}">{{ .Name }}</a>
   {{- end }}
+  {{ range .Params.scripts }}
+    {{ $js := resources.Get (printf "/js/%s" .) | js.Build . }}
+    <script src="{{ $js.RelPermalink }}"></script>
+  {{ end }}
+  {{ range .Params.stylesheets }}
+    {{ $options := dict
+      "targetPath" (printf "css/%s.css" .)
+      "transpiler" "dartsass"
+    }}
+    {{ $style := resources.Get (printf "/scss/%s.scss" .) | toCSS $options }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+  {{ end }}
 </footer>
+{{ $gitRev := trim (getenv "HUGO_GIT_REV") " " }}
+{{ $gitRevShort := getenv "HUGO_GIT_REV_SHORT" }}
+<div id="git-hash" class="contain">ver. <a href="https://github.com/yfxu/yfxu.github.io/commit/{{ $gitRev }}">{{ $gitRevShort }}</a></div>
+<br>

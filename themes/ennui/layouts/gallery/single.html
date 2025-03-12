@@ -1,10 +1,13 @@
 {{- define "main" -}}
 <article class="contain">
-  <img src="{{ .Params.ImageUrl }}">
+  <br>
+  <a href="{{ .Params.ImageUrl }}">
+    <img src="{{ .Params.ImageUrl }}">
+  </a>
   <div class="image-info">
     <h1 class="image-title">{{ .Title }}</h1>
-    <p class="image-location">{{ partial "svg.html" "location" }}{{ .Params.Location }}</p>
-    <p class="image-time">{{ partial "svg.html" "calendar" }} {{ partial "long-date-time.html" .Params.Date }}</p>
+    <p class="image-location">{{ partial "svg.html" "location" }} {{ .Params.Location }}</p>
+    <p class="image-time secondary-font">{{ partial "svg.html" "calendar" }} {{ partial "long-date-time.html" .Params.Date }}</p>
   </div>
   <p>
     {{ range sort .Params.Tags }}

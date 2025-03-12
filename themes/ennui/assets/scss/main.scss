@@ -33,10 +33,18 @@ body {
   min-height: 100vh;
 }
 
+div.section {
+  width: 100%;
+
+  &.highlight {
+    background-color: var(--color-background-tertiary);
+  }
+}
+
 div.name-header {
   text-transform: lowercase;
   margin: 1rem auto;
-  text-align: center;
+  // text-align: center;
 
   h1 { margin: 0 }
   h4 { 
@@ -76,9 +84,12 @@ div.gallery {
 nav.main-nav {
   @include flex-row();
   justify-content: space-evenly;
-  padding-bottom: 1rem;
   column-gap: 1rem;
-  width: 100%
+  width: 100%;
+
+  a {
+    font-weight: bold;
+  }
 }
 
 footer {
@@ -89,6 +100,10 @@ footer {
   a {
     font-weight: bold;
   }
+}
+
+div#git-hash {
+  font-family: monospace;
 }
 
 blockquote {
@@ -148,13 +163,15 @@ div.image-info, div.post-info {
     }
   }
 
-  p.image-time, p.post-time {
+  td.image-time, td.post-time {
     margin: 0;
     font-size: 0.75rem;
     font-weight: bold;
 
-    svg {
+    > svg {
       margin-right: 0.25em;
+      width: 1rem;
+      fill: var(--color-text-secondary);
     }
   }
 }
@@ -240,4 +257,8 @@ div.home-container {
       column-gap: 1rem;
     }
   }
+}
+
+.secondary-font {
+  font-family: monospace;
 }
